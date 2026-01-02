@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F188CF592F0753F1006E54D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F188CF422F0753F0006E54D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F188CF492F0753F0006E54D7;
+			remoteInfo = SessionWG;
+		};
+		F188CF632F0753F1006E54D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F188CF422F0753F0006E54D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F188CF492F0753F0006E54D7;
+			remoteInfo = SessionWG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F188CF4A2F0753F0006E54D7 /* SessionWG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SessionWG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F188CF582F0753F1006E54D7 /* SessionWGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SessionWGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F188CF622F0753F1006E54D7 /* SessionWGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SessionWGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F188CF4C2F0753F0006E54D7 /* SessionWG */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SessionWG;
+			sourceTree = "<group>";
+		};
+		F188CF5B2F0753F1006E54D7 /* SessionWGTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SessionWGTests;
+			sourceTree = "<group>";
+		};
+		F188CF652F0753F1006E54D7 /* SessionWGUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SessionWGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F188CF472F0753F0006E54D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188CF552F0753F1006E54D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188CF5F2F0753F1006E54D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F188CF412F0753F0006E54D7 = {
+			isa = PBXGroup;
+			children = (
+				F188CF4C2F0753F0006E54D7 /* SessionWG */,
+				F188CF5B2F0753F1006E54D7 /* SessionWGTests */,
+				F188CF652F0753F1006E54D7 /* SessionWGUITests */,
+				F188CF4B2F0753F0006E54D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F188CF4B2F0753F0006E54D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F188CF4A2F0753F0006E54D7 /* SessionWG.app */,
+				F188CF582F0753F1006E54D7 /* SessionWGTests.xctest */,
+				F188CF622F0753F1006E54D7 /* SessionWGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F188CF492F0753F0006E54D7 /* SessionWG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F188CF6C2F0753F1006E54D7 /* Build configuration list for PBXNativeTarget "SessionWG" */;
+			buildPhases = (
+				F188CF462F0753F0006E54D7 /* Sources */,
+				F188CF472F0753F0006E54D7 /* Frameworks */,
+				F188CF482F0753F0006E54D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F188CF4C2F0753F0006E54D7 /* SessionWG */,
+			);
+			name = SessionWG;
+			packageProductDependencies = (
+			);
+			productName = SessionWG;
+			productReference = F188CF4A2F0753F0006E54D7 /* SessionWG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F188CF572F0753F1006E54D7 /* SessionWGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F188CF6F2F0753F1006E54D7 /* Build configuration list for PBXNativeTarget "SessionWGTests" */;
+			buildPhases = (
+				F188CF542F0753F1006E54D7 /* Sources */,
+				F188CF552F0753F1006E54D7 /* Frameworks */,
+				F188CF562F0753F1006E54D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F188CF5A2F0753F1006E54D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F188CF5B2F0753F1006E54D7 /* SessionWGTests */,
+			);
+			name = SessionWGTests;
+			packageProductDependencies = (
+			);
+			productName = SessionWGTests;
+			productReference = F188CF582F0753F1006E54D7 /* SessionWGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F188CF612F0753F1006E54D7 /* SessionWGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F188CF722F0753F1006E54D7 /* Build configuration list for PBXNativeTarget "SessionWGUITests" */;
+			buildPhases = (
+				F188CF5E2F0753F1006E54D7 /* Sources */,
+				F188CF5F2F0753F1006E54D7 /* Frameworks */,
+				F188CF602F0753F1006E54D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F188CF642F0753F1006E54D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F188CF652F0753F1006E54D7 /* SessionWGUITests */,
+			);
+			name = SessionWGUITests;
+			packageProductDependencies = (
+			);
+			productName = SessionWGUITests;
+			productReference = F188CF622F0753F1006E54D7 /* SessionWGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F188CF422F0753F0006E54D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F188CF492F0753F0006E54D7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F188CF572F0753F1006E54D7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F188CF492F0753F0006E54D7;
+					};
+					F188CF612F0753F1006E54D7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F188CF492F0753F0006E54D7;
+					};
+				};
+			};
+			buildConfigurationList = F188CF452F0753F0006E54D7 /* Build configuration list for PBXProject "SessionWG" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F188CF412F0753F0006E54D7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F188CF4B2F0753F0006E54D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F188CF492F0753F0006E54D7 /* SessionWG */,
+				F188CF572F0753F1006E54D7 /* SessionWGTests */,
+				F188CF612F0753F1006E54D7 /* SessionWGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F188CF482F0753F0006E54D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188CF562F0753F1006E54D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188CF602F0753F1006E54D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F188CF462F0753F0006E54D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188CF542F0753F1006E54D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188CF5E2F0753F1006E54D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F188CF5A2F0753F1006E54D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F188CF492F0753F0006E54D7 /* SessionWG */;
+			targetProxy = F188CF592F0753F1006E54D7 /* PBXContainerItemProxy */;
+		};
+		F188CF642F0753F1006E54D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F188CF492F0753F0006E54D7 /* SessionWG */;
+			targetProxy = F188CF632F0753F1006E54D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F188CF6A2F0753F1006E54D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KW4JYTM6ZL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F188CF6B2F0753F1006E54D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KW4JYTM6ZL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F188CF6D2F0753F1006E54D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SessionWG/SessionWG.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW4JYTM6ZL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SessionWG/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ustaz1505.SessionWG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F188CF6E2F0753F1006E54D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SessionWG/SessionWG.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW4JYTM6ZL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SessionWG/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ustaz1505.SessionWG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F188CF702F0753F1006E54D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW4JYTM6ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ustaz1505.SessionWGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SessionWG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SessionWG";
+			};
+			name = Debug;
+		};
+		F188CF712F0753F1006E54D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW4JYTM6ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ustaz1505.SessionWGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SessionWG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SessionWG";
+			};
+			name = Release;
+		};
+		F188CF732F0753F1006E54D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW4JYTM6ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ustaz1505.SessionWGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SessionWG;
+			};
+			name = Debug;
+		};
+		F188CF742F0753F1006E54D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW4JYTM6ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ustaz1505.SessionWGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SessionWG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F188CF452F0753F0006E54D7 /* Build configuration list for PBXProject "SessionWG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188CF6A2F0753F1006E54D7 /* Debug */,
+				F188CF6B2F0753F1006E54D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F188CF6C2F0753F1006E54D7 /* Build configuration list for PBXNativeTarget "SessionWG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188CF6D2F0753F1006E54D7 /* Debug */,
+				F188CF6E2F0753F1006E54D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F188CF6F2F0753F1006E54D7 /* Build configuration list for PBXNativeTarget "SessionWGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188CF702F0753F1006E54D7 /* Debug */,
+				F188CF712F0753F1006E54D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F188CF722F0753F1006E54D7 /* Build configuration list for PBXNativeTarget "SessionWGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188CF732F0753F1006E54D7 /* Debug */,
+				F188CF742F0753F1006E54D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F188CF422F0753F0006E54D7 /* Project object */;
+}
